@@ -5,6 +5,16 @@ from threading import Thread
 
 start_process = time.time()
 
+'''
+Multiprocessing: Runs a function code as different process. So if a multiprocess is set to run for 5 times, 
+there will be 5 PIDs running where in general a code runs with a single PID.
+Multithreading: Runs a function code as a single process but creates multiple threads within that process id. So if a
+multithread is set to run for 5 times, there will still be one PID running but creates multiple threads within.
+
+Code Explanation: The below functions runs a dummy thread for 50 million times and calculates the time taken for 
+running the loops with multiprocessing and multithreading. Both the functions are set to run with number of cpu cores 
+in a machine. You can also change it run with any number.'''
+
 
 def process_function():
     for _ in range(50000000):  # runs loops for 50 million times
