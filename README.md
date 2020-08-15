@@ -11,7 +11,7 @@ You can also alter these to run with any numbers.
 
 
 The whole point of this project is to explain how different functional programming concepts work. The intention is 
-not to prove one over the other as that depends on various various other factors. Most concepts here are extremely 
+not to prove one over the other as that depends on various other factors. Most concepts here are extremely 
 useful for web crawling and I/O handling applications.
 
 
